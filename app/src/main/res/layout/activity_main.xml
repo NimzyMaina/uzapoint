@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--add sales-->
+    <LinearLayout
+        android:id="@+id/topLeft"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:background="#52788c"
+        app:layout_heightPercent="34%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Add Sale"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--inventory-->
+    <LinearLayout
+        android:id="@+id/topRight"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:background="#4a7287"
+        app:layout_heightPercent="34%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/inventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Inventory"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--sales-->
+    <LinearLayout
+        android:id="@+id/middleLeft"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/topLeft"
+        android:layout_alignParentStart="true"
+        android:background="#426c82"
+        app:layout_heightPercent="33%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Sales"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--customers-->
+    <LinearLayout
+        android:id="@+id/middleRight"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/topLeft"
+        android:layout_alignParentEnd="true"
+        android:background="#39667d"
+        app:layout_heightPercent="34%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/customers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Customers"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--others-->
+    <LinearLayout
+        android:id="@+id/bottomLeft"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/middleLeft"
+        android:layout_alignParentBottom="true"
+        android:background="#326079"
+        app:layout_heightPercent="33%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Others"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <!--performance-->
+    <LinearLayout
+        android:id="@+id/bottomRight"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#21546f"
+        app:layout_heightPercent="33%"
+        app:layout_widthPercent="50%">
+
+        <TextView
+            android:id="@+id/performance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Performance"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
